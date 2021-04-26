@@ -10,7 +10,7 @@ from userbot.utils import lightning_cmd
 
 LIGHTNING_ALV_IMG = os.environ.get("LIGHTNING_ALV_IMG", None)
 if LIGHTNING_ALV_IMG is None:
-    ALV_LIGHTNING = "https://telegra.ph/file/5a121317fed843d1cd3fc.mp4"
+    ALV_LIGHTNING = "https://telegra.ph/file/9c906813b9388046b6984.jpg"
 else:
     ALV_LIGHTNING = LIGHTNING_ALV_IMG
 
@@ -53,17 +53,17 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-pm_caption = "__                       **🔥 𝐒𝐀𝐕𝐀𝐆𝐄_𝐁𝐎𝐓 🔥**  __\n\n"
+pm_caption = "__                       **🔥 D3VIL_BOT 🔥**  __\n\n"
 pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
 pm_caption += "✘ ΔβØỮŦ Μ¥ Ş¥ŞŦ€Μ ✘\n\n"
 pm_caption += "➾ **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍**       ➣ 𝟏.𝟏𝟕.𝟓\n"
-pm_caption += "➾ **𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏      ➣ [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/joinchat/RPrJW2IU-Uo4MGRl)\n"
-pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/0KCyT0MHyAhmMmRl)\n"
-pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏   ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/qCIk-af6VW1kNDll)\n"
-pm_caption += "➾ **𝐂𝐑𝐄𝐀𝐓𝐎𝐑      ➣ [⚡𝐒𝐀𝐌𝐄𝐄𝐑⚡](@SAMEER_795)\n" 
+pm_caption += "➾ **𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏      ➣ [D3VIL](https://t.me/joinchat/D3VIL_BOT_SUPPORT)\n"
+pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/D3VIL_BOT_SUPPORT)\n"
+pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏   ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/D3VIL_BOT_SUPPORT)\n"
+pm_caption += "➾ **𝐂𝐑𝐄𝐀𝐓𝐎𝐑      ➣ [⚡KRISH⚡](@D3_krish)\n" 
                   
 pm_caption += " \n"
-pm_caption += "[✨𝔻𝔼ℙ𝕃𝕆𝕐 𝕐𝕆𝕌ℝ 𝕊𝔸𝕍𝔸𝔾𝔼✨](https://github.com/sameerpanthi/SAVAGE-IS-BACK)"
+pm_caption += "[✨𝔻𝔼ℙ𝕃𝕆𝕐 𝕐𝕆𝕌ℝ 𝔻3𝕍𝕀𝕃𝔹𝕆𝕋✨](https://github.com/D3KRISH/D3VILUSERBOT)"
 
 @borg.on(lightning_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
