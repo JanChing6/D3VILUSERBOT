@@ -16,20 +16,20 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/79fa9bd2a0fe0db81a215.jpg"
+    PM_iMG = "https://telegra.ph/file/9c906813b9388046b6984.jpg"
 else:
     PM_iMG = ALIVE_PIC
 
 
 HELL_PIC = os.environ.get("HELL_PIC", None)
 if HELL_PIC is None:
-    HELL_IMG = "https://telegra.ph/file/79fa9bd2a0fe0db81a215.jpg"
+    HELL_IMG = "https://telegra.ph/file/9c906813b9388046b6984.jpg"
 else:
     HELL_IMG = HELL_PIC
 
 CAT_IMGE = os.environ.get("CAT_IMGE", None)
 if CAT_IMGE is None:
-    CAT_IMG = "https://telegra.ph/file/79fa9bd2a0fe0db81a215.jpg"
+    CAT_IMG = "https://telegra.ph/file/9c906813b9388046b6984.jpg"
 else:
     CAT_IMG = CAT_IMGE
 
@@ -83,14 +83,14 @@ def get_readable_time(seconds: int) -> str:
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
-        pm_caption = "🔥🔥𝐒𝐀𝐕𝐀𝐆𝐄 𝐎𝐍 𝐅𝐈𝐑𝐄🔥🔥\n"
+        pm_caption = "🔥🔥 D3VIL 𝐎𝐍 𝐅𝐈𝐑𝐄🔥🔥\n"
         pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
-        pm_caption += "𝐎𝐖𝐍𝐄𝐑             : [⚡丂卂爪乇乇尺⚡](@sameer_795)\n" 
+        pm_caption += "𝐎𝐖𝐍𝐄𝐑             : [⚡KRISH⚡](@D3_krish)\n" 
         pm_caption += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 1.17.5\n"
-        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  : [ᴊᴏɪɴ](https://t.me/SAVAGE_TECHY)\n"
-        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏    : [ᴊᴏɪɴ](https://t.me/SAVAGE_TEAM_BOT)\n"
-        pm_caption += "𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏       : [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/SAVAGE_TEAM_BOLTE)\n\n"
-        pm_caption += "[ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ](https://github.com/sameerpanthi/SAVAGE-IS-BACK)\n"
+        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  : [ᴊᴏɪɴ](https://t.me/D3VIL_BOT_SUPPORT)\n"
+        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏    : [ᴊᴏɪɴ](https://t.me/D3VIL_BOT_SUPPORT)\n"
+        pm_caption += "𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏       : [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/D3VIL_BOT_SUPPORT)\n\n"
+        pm_caption += "[ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ](https://github.com/D3KRISH/D3VILUSERBOT)\n"
         await salive.get_chat()
         await salive.delete()
         """ For .allive command, check if the bot is running.  """
