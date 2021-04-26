@@ -83,13 +83,13 @@ def get_readable_time(seconds: int) -> str:
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
-        pm_caption = "🔥🔥 D3VIL 𝐎𝐍 𝐅𝐈𝐑𝐄🔥🔥\n"
+        pm_caption = "🔥🔥 D3VIL ON FIRE🔥🔥\n"
         pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
-        pm_caption += "𝐎𝐖𝐍𝐄𝐑             : [⚡KRISH⚡](@D3_krish)\n" 
-        pm_caption += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 1.17.5\n"
-        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  : [ᴊᴏɪɴ](https://t.me/D3VIL_BOT_SUPPORT)\n"
-        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏    : [ᴊᴏɪɴ](https://t.me/D3VIL_BOT_SUPPORT)\n"
-        pm_caption += "𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏       : [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/D3VIL_BOT_SUPPORT)\n\n"
+        pm_caption += "OWNER             : [⚡KRISH⚡](@D3_krish)\n" 
+        pm_caption += "TELETHON : 1.17.5\n"
+        pm_caption += "SUPPORT CHHANNEL  : [JOIN](https://t.me/D3VIL_BOT_SUPPORT)\n"
+        pm_caption += "SUPPORT GROUP    : [JOIN](https://t.me/D3VIL_BOT_SUPPORT)\n"
+        pm_caption += "TEAM GROUP       : [D3VIL](https://t.me/D3VIL_BOT_SUPPORT)\n\n"
         pm_caption += "[ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ](https://github.com/D3KRISH/D3VILUSERBOT)\n"
         await salive.get_chat()
         await salive.delete()
