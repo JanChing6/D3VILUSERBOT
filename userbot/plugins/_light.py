@@ -42,7 +42,7 @@ async def cmd_list(event):
                 await asyncio.sleep(2)
                 await event.edit(input_str + "___SUR DIMAG KAHA HE AAPKA YEH KOI PLUGIN HII NHI HE😅___")
         else:
-            light_help_strin = """**SAVAGE Heres With The Detailed Help For CMDs** 😉😉 !\n If Faced Any Bug Please Give The Feed Back at @SAVAGE_TEAM_USERBOT:"""
+            light_help_strin = """**D3VIL Heres With The Detailed Help For CMDs** 😉😉 !\n If Faced Any Bug Please Give The Feed Back at @D3VIL_BOT_SUPPORT:"""
             results = await bot.inline_query(  # pylint:disable=E0602
             lightningusername, light_help_strin
             )
