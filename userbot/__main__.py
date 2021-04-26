@@ -14,7 +14,7 @@ from userbot.utils import load_assistant, load_module, start_assistant
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
-sed = logging.getLogger("Black Lightning")
+sed = logging.getLogger("D3VIL BOT")
 
 
 async def add_bot(bot_token):
@@ -27,7 +27,7 @@ async def startup_log_all_done():
     try:
         await bot.send_message(
             TELE,
-            f"**𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
+            f"**D3VIL BOT has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
         )
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
@@ -58,9 +58,9 @@ for name in files:
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
 
-print("𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 has been deployed! ")
+print("D3VIL BOT has been deployed! ")
 
-print("Setting up 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓")
+print("Setting up D3VIL BOT")
 path = "userbot/plugins/assistant/*.py"
 files = glob.glob(path)
 for name in files:
