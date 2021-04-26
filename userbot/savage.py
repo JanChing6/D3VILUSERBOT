@@ -1,6 +1,4 @@
 #kang krne aaye ho  chala ja bhosdike tere kaam ka ni h ye
-#make by legendx22 for chutiapa 🤔😑 you dont kang this 
-#okay to ab isme cheeze bharte h 
 #if you read only this then okay else
 #chala jaa bhosdike 
 import os
@@ -10,8 +8,8 @@ NAME = os.environ.get("BOT_NICK_NAME")
 BOT =  = str(NAME) if NAME else "D3VIL BOT"
 #op for keinshin
 
-SAMEER = "[SAMEER](https://t.me/D3_krish)"
-OP = "[SAVAGE BOT](https://github.com/D3KRISH/D3VILUSERBOT)"
+KRISH = "[KRISH](https://t.me/D3_krish)"
+OP = "[D3VIL BOT](https://github.com/D3KRISH/D3VILUSERBOT)"
 OKAY = "[SUPPORT GROUP](https://t.me/D3VIL_BOT_SUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
