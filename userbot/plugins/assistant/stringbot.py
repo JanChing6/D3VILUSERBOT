@@ -19,7 +19,7 @@ from telethon.errors.rpcerrorlist import  PhoneCodeInvalidError
 
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "D3VIL BOT"
 
 TEXT = """Hi, {}.
 This is Your Assitant Now As a String Session Generator Bot. I will generate String Session of your Telegram Account.
