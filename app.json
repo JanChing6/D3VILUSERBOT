@@ -1,8 +1,8 @@
 {
-  "name": "𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓",              
-  "description": "The best userbot made by @SAMEER_795 🤗. Made with Love ❤️ And Phone And Hardwork and... Nhi aur kahi se to nhi bana😂...For Support Join @SAVAGE_TEAM_USERBOT",
+  "name": "D3VIL BOT",              
+  "description": "The best userbot made by @D3_krish .For Support Join @D3VIL_BOT_SUPPORT",
   
-  "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
+  "logo": "https://telegra.ph/file/9c906813b9388046b6984.jpg",
   "keywords": [
    "telegram",
    "userbot",
@@ -10,9 +10,9 @@
    "modular",
    "productivity"
   ],
-  "repository": "https://github.com/sameerpanthi/SAVAGE-IS-BACK",
-  "website": "https://github.com/sameerpanthi/SAVAGE-IS-BACK",
-  "success_url": "https://t.me/savage_team_userbot",
+  "repository": "https://github.com/D3KRISH/D3VILUSERBOT",
+  "website": "https://github.com/D3KRISH/D3VILUSERBOT",
+  "success_url": "https://t.me/D3VIL_BOT_SUPPORT",
   "stack": "container",
   "env": {
    "ENV": {
@@ -33,7 +33,7 @@
     "value": ""
    },
    "STRING_SESSION": {
-    "description": "Get this value by running python3 telesetup.py on repl.it",
+    "description": "Get this value by running python3 telesetup.py on repl.it https://replit.com/@D3krish/D3VILUSERBOT",
     "value": ""
    },  
    "CUSTOM_PMPERMIT": {
