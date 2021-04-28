@@ -80,7 +80,7 @@ def get_readable_time(seconds: int) -> str:
 
 @borg.on(lightning_cmd(outgoing=True, pattern="alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
-async def amireallyalive(alive):
+async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
         pm_caption = "🔥🔥 D3VIL ON FIRE🔥🔥\n"
@@ -97,4 +97,6 @@ async def amireallyalive(alive):
         await borg.send_file(
             salive.chat_id, ALIVE_PHOTTO, caption=pm_caption, link_preview=False
         )
+    else:
+        await salive.reply('I am Alive! ') 
         
