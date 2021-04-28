@@ -110,6 +110,8 @@ python-telegram-bot==13.0
 pytube==10.0.0
 pytz==2020.4
 qrcode==6.1
+quotefancy
+qr-img
 rapidfuzz==0.13.3
 redis==3.5.3
 regex==2020.11.13
