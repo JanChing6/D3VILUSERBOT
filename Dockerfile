@@ -8,48 +8,52 @@ WORKDIR /app
 RUN apt -qq update
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Kolkata
-RUN apt update && apt upgrade -y && apt install --no-install-recommends -y \
-        debian-keyring \
-        debian-archive-keyring \
-        bash \
-        curl \
-        git \
-        util-linux \
-        libffi-dev \
-        libjpeg-dev \
-        liblzma-dev\
-        libjpeg62-turbo-dev \
-        libwebp-dev \
-        linux-headers-amd64 \
-        musl-dev \
-        musl \
-        neofetch \
-        python3-lxml \
-        postgresql \
-        postgresql-client \
-        libpq-dev \
-        libcurl4-openssl-dev \
-        libxml2-dev \
-        libxslt1-dev \
-        openssl \
-        pv \
-        jq \
-        wget \
-        python3-dev \
-        libreadline-dev \
-        libyaml-dev \
-        zlib1g \
-        ffmpeg \
-        libssl-dev \
-        libgconf-2-4 \
-        libxi6 \
-        zlib1g-dev \
-        xvfb \
-        unzip \
-        make \
-        libopus0 \
-        libopus-dev \
-        gcc
+RUN apt-get install -y\
+    coreutils \
+    bash \
+    bzip2 \
+    curl \
+    tesseract-ocr \
+    tesseract-ocr-eng \
+    imagemagick \
+    figlet \
+    gcc \
+    g++ \
+    git \
+    libevent-dev \
+    libjpeg-dev \
+    libffi-dev \
+    libpq-dev \
+    libsqlite3-dev \
+    libwebp-dev \
+    libgl1 \
+    musl \
+    neofetch \
+    libcurl4-openssl-dev \
+    postgresql \
+    postgresql-client \
+    postgresql-server-dev-all \
+    openssl \
+    mediainfo \
+    wget \
+    python3 \
+    python3-dev \
+    python3-pip \
+    libreadline-dev \
+    zipalign \
+    sqlite3 \
+    ffmpeg \
+    libsqlite3-dev \
+    axel \
+    zlib1g-dev \
+    recoverjpeg \
+    zip \
+    megatools \
+    libfreetype6-dev \
+    procps \
+    imagemagick \
+    libmagic-dev \
+    policykit-1
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
     dpkg -i ./google-chrome-stable_current_amd64.deb; apt -fqqy install && \
     rm ./google-chrome-stable_current_amd64.deb
